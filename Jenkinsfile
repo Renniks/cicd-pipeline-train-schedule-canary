@@ -53,7 +53,7 @@ pipeline {
                 )
             }
         }
-        stage('DeployToProduction') {
+        stage('DeployToKubernetes') {
             when {
                 branch 'master'
             }
